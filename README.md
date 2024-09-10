@@ -1,58 +1,20 @@
-<h1>JWipe - Disk Sanitization</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1 style="text-align:center; font-size: 2.5em;">🔓 Cross-Site Scripting (XSS) Attack Simulation</h1> <div style="text-align:center; margin-bottom: 20px;"> <a href="https://youtu.be/7eJexJVCqJo" style="font-size: 1.5em; font-weight: bold; color: #FF5733;"> <h2 style="color: #4CAF50; font-size: 2em;">📝 Description</h2> <p style="font-size: 1.2em;"> This project showcases a simulated **Cross-Site Scripting (XSS)** attack, demonstrating how a malicious user can inject harmful scripts into a web application. It highlights the risk of insecure input handling and showcases real-world threats such as data theft, cookie hijacking, and site redirection. This project simulates both the attack and the mitigation steps to secure the website. </p> <h2 style="color: #4CAF50; font-size: 2em;">🛠️ Languages and Tools Used</h2> <ul style="font-size: 1.2em;"> <li><strong>HTML5</strong></li> <li><strong>JavaScript</strong></li> <li><strong>Web Vulnerability Scanners</strong></li> </ul> <h2 style="color: #4CAF50; font-size: 2em;">🌐 Environments Used</h2> <ul style="font-size: 1.2em;"> <li><strong>Windows 10</strong> (21H2)</li> <li><strong>Kali Linux</strong> (for testing)</li> </ul> <h2 style="color: #4CAF50; font-size: 2em;">>💻 Program Walk-through</h2> <div style="text-align:center; margin-bottom: 20px;"> <p style="font-size: 1.2em;">Follow these steps to understand how the XSS attack was executed and mitigated:</p> <p><b>Step 1:</b> Launch the vulnerable web app: <a href="https://example.com/vulnerable-web-app" style="font-weight: bold; color: #FF5733;">Vulnerable Web App</a></p>
+<br /><br />
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+<p><b>Step 2:</b> Inject the malicious XSS payload in the input field: <a href="https://example.com/xss-payload-description" style="font-weight: bold; color: #FF5733;">XSS Payload Description</a></p>
+<br /><br />
 
+<p><b>Step 3:</b> Observe how the script is executed: <a href="https://example.com/xss-execution-details" style="font-weight: bold; color: #FF5733;">XSS Execution Details</a></p>
+<br /><br />
 
-<h2>Languages and Utilities Used</h2>
+<p><b>Step 4:</b> Steal cookies or manipulate data using the injected script: <a href="https://example.com/cookie-stealing-steps" style="font-weight: bold; color: #FF5733;">Cookie Stealing Steps</a></p>
+<br /><br />
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<p><b>Step 5:</b> See the potential impact and risk: <a href="https://example.com/xss-impact-overview" style="font-weight: bold; color: #FF5733;">XSS Impact Overview</a></p>
+<br /><br />
 
-<h2>Environments Used </h2>
+<p><b>Step 6:</b> Mitigate the XSS attack by sanitizing inputs: <a href="https://example.com/xss-mitigation" style="font-weight: bold; color: #FF5733;">XSS Mitigation Guide</a></p>
+<br /><br />
 
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<p><b>Step 7:</b> Validate the fix and secure the site from future attacks: <a href="https://example.com/validate-xss-fix" style="font-weight: bold; color: #FF5733;">Validation Steps</a></p> </div>
