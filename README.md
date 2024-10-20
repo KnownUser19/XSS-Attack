@@ -14,7 +14,7 @@ The <script> tag enables JavaScript execution in HTML.
 The alert('XSS') function triggers a pop-up displaying "XSS," demonstrating a successful injection.</p>
 <br /><br />
 
-<p><b>Step 3:</b> Observe how the script is executed: <a href="https://example.com/xss-execution-details" style="font-weight: bold; color: #FF5733;">XSS Execution Details</a></p>
+<p><b>Step 3:</b> Observe how the script is executed: <a href="https://github.com/KnownUser19/XSS-Attack/blob/main/server.py" style="font-weight: bold; color: #FF5733;">XSS Execution Details</a></p>
 <br /><br />
 
 <p><b>Step 4:</b> Steal cookies or manipulate data using the injected script: <a href="https://example.com/cookie-stealing-steps" style="font-weight: bold; color: #FF5733;">Cookie Stealing Steps</a></p>
